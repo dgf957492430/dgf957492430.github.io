@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .parent {
+            border: 1px solid #000;
+            background: skyblue;
+        }
+        .clear-fix::after {
+            content: '';
+            display: block;
+            clear: both;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+            overflow: hidden;
+        }
+
+
+        /*.item1 {*/
+            /*float: left;*/
+            /*width: 100px;*/
+            /*height: 100px;*/
+            /*background: #f00;*/
+        /*}*/
+        /*.item2 {*/
+            /*float: left;*/
+            /*height: 100px;*/
+            /*width: 100px;*/
+            /*background: #ff6700;*/
+        /*}*/
+        /*.dixia {*/
+            /*height: 200px;*/
+            /*background: #00f;*/
+            /*border: 1px solid #000;*/
+        /*}*/
+        
+    </style>
+</head>
+<body>
+<div class="parent">
+456
+</div>
+
+<!--<div class="dixia"></div>-->
+</body>
+</html>
