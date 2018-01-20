@@ -47,6 +47,7 @@
     text-align: center;
     background: #424242;
 }
+
 .header-right .shop-car a {
     font-size: 15px;
 }
@@ -179,7 +180,7 @@
     width: 1226px;
     margin: 20px auto 0;
 }
-.home-hero-left {
+.main-prod-left {
     float: left;
     padding: 5px;
     width: 225px;
@@ -187,7 +188,7 @@
     background: #333;
 }
 
-.home-hero-left li {
+.main-prod-left li {
     margin: 0 5px 15px 0;
     float: left;
     width: 70px;
@@ -195,59 +196,60 @@
     text-align: center;
     border: 1px solid #f1f1f1;
 }
-.home-hero-left li.last {
+.main-prod-left li.last {
     margin-right: 0;
 }
 
-.home-hero-left li p {
+.main-prod-left li p {
     margin-top: 10px;
 }
-.home-hero-left a {
+.main-prod-left a {
     color: #fff;
     font-size: 12px;
 }
-.home-hero-left .bdn-left {
+.main-prod-left .bdn-left {
     border-left: none;
 }
-.home-hero-left .bdn-right {
+.main-prod-left .bdn-right {
     border-right: none;
 }
-.home-hero-left .bdn-bottom {
+.main-prod-left .bdn-bottom {
     border-bottom: none;
 }
-.home-hero-left .bdn-top {
+.main-prod-left .bdn-top {
     border-top: none;
 }
-.home-hero-right {
+.main-prod-right {
     float: right;
 }
-.home-hero-right li {
+.main-prod-right li {
     float: left;
     margin-right: 15px;
 }
-.home-hero-right li.last {
+.main-prod-right li.last {
     margin-right: 0;
 }
 
-.home-hero-right a img {
+.main-prod-right a img {
     width: 316px;
     height: 170px;
 }
 /*主打产品结束*/
 
 /*明星单品开始*/
-.start-single { position: relative; width: 1226px; margin: 20px auto 0; }
-.start-single h2 { font-weight: 200; line-height: 58px; height: 58px; font-size: 22px; }
+.star-single { position: relative; width: 1226px; margin: 20px auto 0; }
+.star-single h2 { font-weight: 200; line-height: 58px; height: 58px; font-size: 22px; }
 
-.start-single .btns { position: absolute; top: 25px; right: 0; width: 70px; height: 25px; border: 1px solid #f1f1f1; text-align: center; }
+.star-single .btns { position: absolute; top: 25px; right: 0; width: 70px; height: 25px; border: 1px solid #f1f1f1; text-align: center; }
 
-.start-single .btns li { width: 35px; height: 25px; float: left; font-size: 16px; font-weight: 700; color: #b0b0b0; }
-.start-single .btns li.last { width: 34px; border-left: 1px solid #f1f1f1; }
+.star-single .btns li { width: 35px; height: 25px; float: left; font-size: 16px; font-weight: 700; color: #b0b0b0; }
+.star-single .btns li.last { width: 34px; border-left: 1px solid #f1f1f1; }
 
 .single-item { float: left; margin-right: 14px; width: 234px; height: 340px; padding-top: 39px; border-top: 1px solid #ff6700; text-align: center; background: #fafafa; }
-.start-single .item-green { border-top: 1px solid #83c44e;
-}
-.start-single .last {
+/*.star-single .item-green { border-top: 1px solid #83c44e;
+}*/
+
+.star-single .last {
     margin-right: 0;
 }
 
@@ -343,6 +345,92 @@
     color: #ff6700;
     border: 1px solid #ff6700;
 }
+
+.footer{
+  background-color: #FAFAFA;
+}
+
+.footer .info-top{
+  width: 1226px;
+  margin: 0 auto;
+}
+
+.footer .info-top .info-top-left{
+  float: left;
+  width: 680px;
+}
+
+.footer .info-top .info-top-right{
+  float: right;
+  margin-top: 3px;
+}
+
+.footer .info-top .info-top-right img{
+  width: 85px;
+  height: 28px;
+}
+
+.footer .info-top .info-top-right img.last{
+  margin-right: 0;
+}
+
+.footer .info-top .info-img{
+  float: left;
+  width: 57px;
+  height: 57px;
+  margin-right: 8px;
+}
+
+.footer .info-top .info-img img{
+  width: 57px;
+  height: 57px;
+}
+
+.footer .info-top .info-words{
+  font-size: 12px;
+  color: #B0C0D7;
+  float: left;
+}
+
+.footer .info-top .info-words li{
+  float: left;
+}
+
+.footer .info-top .info-words li i{
+  font-style: normal;
+  margin-right: 4px;
+}
+
+.footer .info-top .info-words div{
+  line-height: 19px;
+}
+
+.footer .info-top .info-words div:first-child{
+  color: #424242;
+}
+
+.footer .info-top .info-words a{
+  color: #B0C0D7;
+}
+
+.footer .info-bottom{
+  width: 1226px;
+  height: 100px;
+  line-height: 100px;
+  margin:0 auto;
+  color:black;
+  font-size: 16px;
+  text-align: center;
+  opacity: 0.3;
+}
+
+
+
+
+
+
+
+
 
 
 
